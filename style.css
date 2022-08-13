@@ -1,0 +1,138 @@
+ syntax for css
+
+
+selector {
+	property: value:;
+}
+
+/* in css specificify rule
+ higher priority (1st class)(2nd element) 
+
+ lower priority (universal)*/
+
+/*asteris universal selector*/
+*{ font-family: "Roboto", sans-serif;}
+/*elements selector*/
+
+h1,h2{font-family: "Montserrat", sans-serif;}
+img {
+	height: 250px;
+	width: 250px;
+	border: 5px solid forestgreen;
+	border-radius: 20%;
+}
+
+/*id selector higher priority is id
+its use hushtag(#)*/
+#landing {
+	/*vh=viewport height*/
+	height: 90vh;
+	/*display flex is important*//*vertical*/
+	/*flex = flexible responsive/collumn from left to rigth/ it go 
+	with the  screen
+	it allows iw to arrange and layout inside our landing section horizontally 
+	and vertically
+
+	by default, display: flex; arrange elements inside the parent element */
+	display: flex;
+	/*flex-direction: column;--> arrange flex items into a colnm*/
+	flex-direction: column;
+
+	/*justify-content: center; --> arrange element horizontally if the flex items are in a row
+	 it arranges  element vertically if the flex itemss are in a column*/
+	justify-content: center;
+
+	align-items: center;
+
+
+
+}
+#gallery {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+
+}
+
+
+
+ul { list-style: none;
+padding: 0;}
+/*padding-left: 25px;
+padding-right: 60px;
+padding-bottom: 50px;
+}*/
+
+/*class selector dot(.)*/
+.tools {
+	/*boder --> lines around the element
+		#f2f2f2 --> hex code, for shade of colors*/
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	/*percenage measurement  for width based on the total witdh of the parent elements*/
+	width: 75%;
+	/*margin --> space out outside the elements*/
+	margin: 20px;
+	/*padding space out inside the elements*/
+	padding: 25px;
+
+	/*hex color #
+	rgb 000 000*/
+}
+h2 {
+	color: #007bff;
+}
+
+/*it makes the scrolling of the page smooth*/
+html {
+
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+/*getbootstrap.com free template for css*/
+
+/* 
+bootstrap spaces
+m => margin
+p => padding
+
+t => top
+s = for start or left
+e => for the end
+b => bottom
+
+x => x-axis
+y => y-axis
+
+1-5 or auto
+
+mx - auto
+
+mt- auto
+
+it always inside the class attribute
+
+*/
+
+/*
+bg background color
+primary - blue
+secondary - grey
+warning - yellow
+danger - red
+info - light blue
+transparents - white
+success- green
+*/
+============
+/*text allign justify*/
